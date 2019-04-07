@@ -1,0 +1,30 @@
+const navSlide = () => {
+  // DOM Elements
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.navLinks');
+  const navLinks = document.querySelectorAll('.navLinks li');
+
+  burger.addEventListener('click', () => {
+    // Toggle Nav for Mobile
+    nav.classList.toggle('navActive');
+
+    // Animate Links
+    navLinks.forEach((link, index) => {
+      if(link.style.animation) {
+        link.style.animation = '';
+      } else {
+        link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.4}s`;
+      }
+    });
+
+    // Burger/Close Button Animation
+    burger.classList.toggle('toggleOpenClose');
+  });
+}
+
+navSlide();
+
+// Smooth Scrolling
+const scroll = new SmoothScroll('nav ul li a[href*="#"]', {
+  speed: 800
+});
