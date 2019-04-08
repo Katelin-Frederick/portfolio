@@ -25,6 +25,10 @@ const navSlide = () => {
 navSlide();
 
 // Smooth Scrolling
-const scroll = new SmoothScroll('nav ul li a[href*="#"]', {
+const navScroll = new SmoothScroll('nav ul li a[href*="#"]', {
+  speed: 800
+});
+
+const projectBtnScroll = new SmoothScroll('header div a[href*="#"]', {
   speed: 800
 });
