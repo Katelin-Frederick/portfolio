@@ -30,5 +30,9 @@ const navScroll = new SmoothScroll('nav ul li a[href*="#"]', {
 });
 
 const projectBtnScroll = new SmoothScroll('header div a[href*="#"]', {
-  speed: 800
+  speed: 2300
+});
+
+const navLogo = new SmoothScroll('nav div a[href*="#"]', {
+  speed: 1200
 });

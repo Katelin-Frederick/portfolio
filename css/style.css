@@ -201,7 +201,11 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
-  margin: 40px 10px 40px 10px;
+  margin: 40px 0 40px 0;
+}
+
+.icons a {
+  text-decoration: none;
 }
 
 .contactIcon  {
@@ -210,8 +214,11 @@ nav {
   padding: 0.5em;
   background: var(--secondary-grey);
   border: 2px solid var(--offWhite);
-  height: 100%;
-  width: 100%;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.2s ease-in;
   animation-duration: 1.6s;
 }
@@ -411,6 +418,8 @@ nav {
 
   .contactIcon {
     font-size: 1.4em;
+    height: 50px;
+    width: 50px;
   }
 
   button {
