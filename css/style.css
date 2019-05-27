@@ -346,6 +346,32 @@ textarea {
   padding: 1rem 3rem;
 }
 
+/***** THANKS PAGE *****/
+.thanksPage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.thanksPage h2 {
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+.thanksPage p {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+.thanksPage .btn {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
 /***** MEDIA QUERIES *****/
 @media screen and (max-width: 1140px) {
   #cardGrid {
@@ -458,6 +484,18 @@ textarea {
   input,
   textarea {
     width: 80vw;
+  }
+
+  .thanksPage h2 {
+    font-size: 2rem;
+  }
+
+  .thanksPage p {
+    font-size: 1.5rem;
+  }
+
+  .thanksPage .btn {
+    font-size: 1.2rem;
   }
 }
 
