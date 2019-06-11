@@ -261,7 +261,6 @@ nav {
 
 .card {
   width: 300px;
-  margin-bottom: 30px;
 }
 
 .cardTitle {
@@ -272,11 +271,16 @@ nav {
   padding: 6px;
   width: 100%;
   border: 2px solid var(--light-grey);
+  border-radius: 0 0 10px 10px;
 }
 
 .projectImageWrapper {
   width: 300px;
   height: 300px;
+}
+
+.projectImageWrapper img {
+  border-radius: 10px 10px 0 0;
 }
 
 .screenshot {
