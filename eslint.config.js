@@ -112,10 +112,9 @@ export default tseslint.config(
         'single'
       ],
       'stylistic/max-len': [
-        2,
-        140,
-        2,
+        'warn',
         {
+          'code': 140,
           'ignoreUrls': true,
           'ignoreStrings': true,
           'ignoreTemplateLiterals': true,
