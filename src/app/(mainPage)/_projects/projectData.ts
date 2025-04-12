@@ -1,68 +1,32 @@
 const projectData = [
   {
     image: {
-      src: '/images/weightTracker.png',
-      alt: '',
+      src: '/images/reelSearch.png',
+      alt: 'ReelSearch Screenshot',
     },
-    title: 'Weight Tracker',
-    description: 'Site that tracks and charts users fitness aspects',
+    title: 'Reel Search',
+    description: 'Site that allows the user to search the TMDB API',
     btnLinks: {
-      demo: '/',
-      code: '/',
-    },
-    skills: [
-      'MongoDB',
-      'Express',
-      'React',
-      'Node.js'
-    ],
-  },
-  {
-    image: {
-      src: '/images/siteSaver.png',
-      alt: 'Site Saver Screenshot',
-    },
-    title: 'Site Saver',
-    description: 'Site that allows the user to save bookmarked sites',
-    btnLinks: {
-      demo: '/',
-      code: '/',
-    },
-    skills: [
-      'MongoDB',
-      'Express',
-      'React',
-      'Node.js'
-    ],
-  },
-  {
-    image: {
-      src: '/images/movie.png',
-      alt: '',
-    },
-    title: 'Movie Search',
-    description: 'Site that allows the user to search the IMDb API',
-    btnLinks: {
-      demo: '/',
-      code: '/',
+      demo: 'https://reelsearch.netlify.app/',
+      code: 'https://github.com/Katelin-Frederick/reel-search',
     },
     skills: [
       'React',
+      'Next.js',
       'Javascript',
-      'Bootstrap',
-      'IMDb API'
+      'TMDB API'
     ],
   },
   {
     image: {
       src: '/images/itunes.png',
-      alt: '',
+      alt: 'iTunes Search Screenshot',
     },
     title: 'iTunes Search',
     description: 'Site that allows the user to search the iTunes API',
     btnLinks: {
-      demo: '/',
-      code: '/',
+      demo: 'https://katelin-frederick.github.io/iTunesSearch/',
+      code: 'https://github.com/Katelin-Frederick/iTunesSearch',
     },
     skills: [
       'HTML',
@@ -74,13 +38,13 @@ const projectData = [
   {
     image: {
       src: '/images/threejs.png',
-      alt: '',
+      alt: 'Three.js Nav Demo Screenshot',
     },
     title: 'Three.js Nav Demo',
     description: 'Site that uses the three.js library to create a navigation element',
     btnLinks: {
-      demo: '/',
-      code: '/',
+      demo: 'https://katelin-frederick.github.io/threejsNavDemo/',
+      code: 'https://github.com/Katelin-Frederick/threejsNavDemo',
     },
     skills: [
       'SASS',
@@ -92,13 +56,13 @@ const projectData = [
   {
     image: {
       src: '/images/universitySite.png',
-      alt: '',
+      alt: 'University Site Screenshot',
     },
     title: 'University Site',
     description: 'Mock-up website for a mock university',
     btnLinks: {
-      demo: '/',
-      code: '/',
+      demo: 'https://awesome-ptolemy-881278.netlify.app/',
+      code: 'https://github.com/Katelin-Frederick/university-site',
     },
     skills: [
       'HTML',

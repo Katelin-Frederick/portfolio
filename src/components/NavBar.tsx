@@ -34,11 +34,11 @@ const NavBar = () => {
     {
       href: '/#contact',
       text: 'Contact',
-    },
-    {
-      href: '/blog',
-      text: 'Blog',
     }
+    // {
+    //   href: '/blog',
+    //   text: 'Blog',
+    // }
   ]
 
   return (

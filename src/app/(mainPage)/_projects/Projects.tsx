@@ -18,11 +18,12 @@ const Projects = () => (
       >
         <CarouselContent>
           {projectData.map((project, index) => (
-            <CarouselItem key={index} className='xl:basis-1/2 2xl:basis-1/3'>
-              <div className='flex justify-center items-center flex-col'>
+            <CarouselItem key={index} className='flex justify-center xl:basis-1/2 2xl:basis-1/3'>
+              <div className='flex flex-col w-full max-w-[384px] items-center'>
                 <ProjectCard {...project} />
               </div>
             </CarouselItem>
+
           ))}
         </CarouselContent>
         <CarouselPrevious />
