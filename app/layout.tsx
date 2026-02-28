@@ -9,8 +9,8 @@ import { cn, } from '@/lib/utils'
 
 export const metadata: Metadata = {
   title: {
-    default: 'Your Name — Developer',
-    template: '%s | Your Name',
+    default: 'Katelin Frederick — Developer',
+    template: '%s | Katelin Frederick',
   },
   description: 'Full-stack developer portfolio and blog.',
 }
