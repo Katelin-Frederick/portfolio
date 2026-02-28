@@ -47,7 +47,7 @@ const BlogPage = async () => {
                 <span className='text-muted-foreground'>·</span>
                 <div className='flex gap-1.5'>
                   {post.frontmatter.tags.map((tag) => (
-                    <Badge key={tag} variant='secondary' className='text-xs'>
+                    <Badge key={tag} variant='default' className='text-xs'>
                       {tag}
                     </Badge>
                   ))}
