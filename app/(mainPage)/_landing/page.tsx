@@ -59,7 +59,7 @@ const Landing = () => {
             animate={isInView ? { filter: 'blur(0px)', opacity: 1, } : {}}
             transition={{ duration: 1.2, }}
           >
-            Web Developer
+            Full-Stack Engineer
           </motion.p>
 
           <div className='flex flex-col md:flex-row items-center justify-center'>
