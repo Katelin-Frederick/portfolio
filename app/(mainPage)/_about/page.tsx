@@ -6,14 +6,25 @@ const About = () => (
     <h2 className='text-3xl md:text-5xl text-center m-12'>About Me</h2>
 
     <p className='md:text-xl'>
-      Hello! 👋 My name is Katelin Frederick and I am a full-stack web developer with over 5 years of experience. I specialize in tools including React.js, Next.js, JavaScript, TypeScript, Node.js, and AWS resources such as S3, Lambda, and DynamoDB. I have worked on agile teams building serverless web applications consisting of user forms and admin dashboards hosted using AWS.
+      I&apos;m Katelin Frederick, an experienced full-stack engineer who builds and ships
+      production-grade web applications. My core stack is React, Next.js, TypeScript, and Node.js, with
+      hands-on experience in serverless architecture on AWS.
     </p>
     <br />
 
     <p className='md:text-xl'>
-      I thoroughly enjoy learning new processes and tools to keep up with industry standards and grow my skill
-      set. In addition to coding, I enjoy helping other developers learn and grow in their careers. I have strong
-      communication, documentation, analytical, and critical thinking skills.
+      I&apos;m drawn to the full picture — understanding a problem deeply, then solving it across the entire
+      stack. I&apos;ve also developed a genuine passion for mentoring, supporting junior and mid-level engineers
+      through code reviews, technical guidance, and career development. I believe the best engineering teams
+      are ones where technical excellence and investing in the people around you go hand in hand.
+    </p>
+    <br />
+
+    <p className='md:text-xl'>
+      I came to development through self-teaching — driven by curiosity and the satisfaction of building
+      something from nothing. That same drive is still with me today, whether I&apos;m picking up a new tool,
+      digging into an unfamiliar part of the stack, or helping someone else have that &quot;it works!&quot; moment
+      for the first time.
     </p>
   </section>
 )
