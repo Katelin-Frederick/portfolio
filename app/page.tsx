@@ -7,9 +7,9 @@ import About from './(mainPage)/_about/page'
 
 
 const Home = async () => (
-  <main className='bg-gray-500 snap-x'>
+  <main className='bg-gray-500'>
     <Landing />
-    <div className='sm:container mx-auto snap-x'>
+    <div className='sm:container mx-auto'>
       <About />
       <Experience />
       <Skills />

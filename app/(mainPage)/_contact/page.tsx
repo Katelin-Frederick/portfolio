@@ -57,7 +57,7 @@ const Contact = () => {
   }
 
   return (
-    <section id='contact' className='mb-24 px-7 snap-start scroll-my-20 md:scroll-my-28'>
+    <section id='contact' className='mb-24 px-7 scroll-my-20 md:scroll-my-28'>
       <h2 className='text-3xl md:text-5xl text-center m-12'>Get In Touch</h2>
 
       <p className='md:text-xl'>

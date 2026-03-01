@@ -42,7 +42,7 @@ const NavBar = () => {
 
   return (
     <LazyMotion features={domAnimation}>
-      <nav className='flex justify-between items-center min-h-[8vh] bg-gray-800/90 backdrop-blur-sm border-b-6 border-gold-500 w-full fixed px-8 z-10'>
+      <nav className='flex justify-between items-center min-h-[8vh] bg-gray-800/90 backdrop-blur-sm border-b-2 border-gold-500 w-full fixed px-8 z-10'>
         <div className='uppercase tracking-[5px] text-[1em] md:text-xl transition ease-in'>
           <m.h4 whileHover={{ scale: .95, color: '#965f33', }} transition={{ duration: 0.3, ease: 'easeOut', }}>
             <Link className='font-bold' href='/#landing'>Katelin Frederick</Link>

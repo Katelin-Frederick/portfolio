@@ -1,6 +1,7 @@
 import type { Metadata, } from 'next'
 
 import { notFound, } from 'next/navigation'
+import { ArrowLeft, } from 'lucide-react'
 import Link from 'next/link'
 
 import { getPostBySlug, getAllPosts, } from '@/lib/content'
@@ -34,19 +35,20 @@ const BlogPostPage = async ({ params, }: Props) => {
   if (!post) notFound()
 
   return (
-    <div className='mx-auto max-w-3xl px-6 py-16'>
+    <div className='mx-auto max-w-3xl px-6 pb-16 pt-[calc(8vh+2rem)]'>
       <Link
         href='/blog'
-        className='mb-8 block text-sm text-muted-foreground transition-colors hover:text-foreground'
+        className='mb-8 flex items-center gap-1.5 text-sm text-white/50 transition-colors hover:text-gold-500'
       >
-        ← Back to blog
+        <ArrowLeft className='size-4' />
+        Back to blog
       </Link>
 
       <header className='mb-10'>
         <h1 className='mb-3 text-3xl font-bold tracking-tight'>
           {post.frontmatter.title}
         </h1>
-        <div className='flex items-center gap-3 text-sm text-muted-foreground'>
+        <div className='flex items-center gap-3 text-sm text-white/50'>
           <time>
             {new Date(post.frontmatter.date).toLocaleDateString('en-US', {
               month: 'long',

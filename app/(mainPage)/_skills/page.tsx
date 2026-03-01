@@ -22,7 +22,7 @@ import GitBadge from './_skillBadges/GitBadge'
 import S3Badge from './_skillBadges/S3Badge'
 
 const Skills = () => (
-  <section id='skills' className='mb-24 px-7 snap-start scroll-my-20 md:scroll-my-28'>
+  <section id='skills' className='mb-24 px-7 scroll-my-20 md:scroll-my-28'>
     <h2 className='text-3xl md:text-5xl text-center m-12'>Skills</h2>
 
     <h3 className='text-xl text-center'>Frontend</h3>
