@@ -17,39 +17,25 @@ const backgroundStyles = {
 }
 
 const Landing = () => {
-  const title = 'Katelin Frederick'.split('')
-
-  const socialLinkAnimation = {
-    rotate: 360,
-    scale: .9,
-    duration: 0.7,
-  }
-
   const ref = React.useRef(null)
   const isInView = useInView(ref, { once: true, })
 
   return (
     <section
       id='landing'
-      className='h-screen desktop-nav:h-[80vh] flex justify-center items-center overflow-hidden text-center border-b-6 border-gold-500 snap-start'
+      className='h-screen desktop-nav:h-[80vh] flex justify-center items-center overflow-hidden text-center border-b-2 border-gold-500'
       style={backgroundStyles}
     >
       <div id='landingOverlay' className='bg-black/50 w-full h-full flex justify-center items-center'>
         <header>
-          {title.map((letter, i) => (
-            <motion.span
-              initial={{ opacity: 0, }}
-              animate={{ opacity: 1, }}
-              transition={{
-                duration: 0.10,
-                delay: i / 20,
-              }}
-              key={i}
-              className='text-[2.5em] md:text-[56px] text-white my-5'
-            >
-              {letter}
-            </motion.span>
-          ))}
+          <motion.h1
+            initial={{ opacity: 0, y: 20, }}
+            animate={{ opacity: 1, y: 0, }}
+            transition={{ duration: 0.6, ease: 'easeOut', }}
+            className='text-[2.5em] md:text-[56px] text-white my-5'
+          >
+            Katelin Frederick
+          </motion.h1>
 
           <motion.p
             id='subTitle'
@@ -89,7 +75,7 @@ const Landing = () => {
               initial={{ y: -1000, }}
               animate={{ y: 0, }}
               transition={{ duration: 0.5, ease: 'easeOut', }}
-              whileHover={socialLinkAnimation}
+              whileHover={{ y: -4, scale: 1.05, transition: { duration: 0.2, }, }}
             >
               <Button className='rounded-full h-auto p-3' size='lg'>
                 <a
@@ -106,7 +92,7 @@ const Landing = () => {
               initial={{ y: -1000, }}
               animate={{ y: 0, }}
               transition={{ duration: 0.65, ease: 'easeOut', }}
-              whileHover={socialLinkAnimation}
+              whileHover={{ y: -4, scale: 1.05, transition: { duration: 0.2, }, }}
             >
               <Button className='rounded-full h-auto p-3' size='lg'>
                 <a
@@ -123,7 +109,7 @@ const Landing = () => {
               initial={{ y: -1000, }}
               animate={{ y: 0, }}
               transition={{ duration: 0.8, ease: 'easeOut', }}
-              whileHover={socialLinkAnimation}
+              whileHover={{ y: -4, scale: 1.05, transition: { duration: 0.2, }, }}
             >
               <Button className='rounded-full h-auto p-3' size='lg'>
                 <a

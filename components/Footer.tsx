@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => (
-  <footer className='bg-gray-800 backdrop-blur-sm border-t-6 border-gold-500 py-12'>
+  <footer className='bg-gray-800 backdrop-blur-sm border-t-2 border-gold-500 py-12'>
     <div className='grid grid-cols-1 md:grid-cols-2 container mx-auto'>
       <div className='text-center md:text-left'>
         <h5 className='font-bold text-xl mb-4'>Katelin Frederick</h5>

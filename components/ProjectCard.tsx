@@ -3,8 +3,6 @@
 import Image from 'next/image'
 import React from 'react'
 
-import { cn, } from '@/lib/utils'
-
 import { CardDescription, CardContent, CardHeader, CardAction, CardTitle, Card, } from './ui/card'
 import { Button, } from './ui/button'
 
@@ -30,16 +28,16 @@ const ProjectCard = ({
   skills,
 }: ProjectCardProps) => (
   <div className='flex flex-col h-full'>
-    <div className={cn('relative w-60 h-60 sm:w-[384px] sm:h-96')}>
+    <div className='relative w-full h-60 sm:h-72'>
       <Image
         src={image.src}
         fill
         alt={image.alt}
-        className='rounded-t-sm border-b-gold-500 border-b-4 object-cover'
+        className='rounded-t-sm border-b-gold-500 border-b-2 object-cover'
       />
     </div>
 
-    <Card className='flex flex-col flex-1 w-60 sm:w-96 p-1.5 rounded-t-none border-t-0'>
+    <Card className='flex flex-col flex-1 w-full p-1.5 rounded-t-none border-t-0'>
       <CardHeader className='p-0'>
         <CardTitle className='text-center text-2xl py-3'>{title}</CardTitle>
         <CardDescription className='text-center'>
