@@ -9,7 +9,7 @@ const LeadDeveloper = () => (
       <div className='flex items-center'>
         <Terminal className='inline mr-3' />
         <div>
-          <h4 className='text-xl'>Lead Developer</h4>
+          <h4 className='text-xl'>Developer Team Lead</h4>
           <span className='text-sm'>04/2023 - Present</span>
         </div>
       </div>
